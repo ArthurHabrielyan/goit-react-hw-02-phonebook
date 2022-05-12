@@ -25,8 +25,6 @@ export class App extends Component {
     this.setState({
       filter: event.currentTarget.value,
     });
-
-    console.log(this.state.filter);
   };
 
   onDeleteContact = contactId => {
